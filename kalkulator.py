@@ -1,27 +1,50 @@
-# Program menghitung harga tiket bioskop
-print("=== Program Hitung Harga Tiket Bioskop ===")
-print("1. Reguler (Rp50.000)")
-print("2. VIP (Rp100.000)")
+# Program Kalkulator Sederhana
+print("=== Program Kalkulator Sederhana ===")
+print("Operator yang tersedia:")
+print("+ : Penjumlahan")
+print("- : Pengurangan")
+print("* : Perkalian")
+print("/ : Pembagian")
 
-# Input tipe tiket
-tipe_tiket = input("Pilih tipe tiket (1/2): ")
+try:
+    # Input angka pertama
+    angka1 = float(input("\nMasukkan angka pertama: "))
+    
+    # Input operator
+    operator = input("Masukkan operator (+, -, *, /): ")
+    
+    # Input angka kedua
+    angka2 = float(input("Masukkan angka kedua: "))
+    
+    # Proses perhitungan menggunakan if elif else
+    if operator == '+':
+        hasil = angka1 + angka2
+        operasi = "Penjumlahan"
+    elif operator == '-':
+        hasil = angka1 - angka2
+        operasi = "Pengurangan"
+    elif operator == '*':
+        hasil = angka1 * angka2
+        operasi = "Perkalian"
+    elif operator == '/':
+        if angka2 == 0:
+            raise ZeroDivisionError("Pembagian dengan nol tidak diperbolehkan!")
+        hasil = angka1 / angka2
+        operasi = "Pembagian"
+    else:
+        raise ValueError("Operator tidak valid!")
+    
+    # Tampilkan hasil
+    print("\n=== Hasil Perhitungan ===")
+    print(f"Operasi: {operasi}")
+    print(f"{angka1} {operator} {angka2} = {hasil}")
 
-# Input status member
-status_member = input("Apakah anda memiliki kartu member? (y/n): ")
-
-# Harga dasar tiket menggunakan operator ternary
-harga_dasar = 50000 if tipe_tiket == "1" else 100000
-
-# Hitung diskon menggunakan operator ternary
-diskon = 0.2 if status_member.lower() == "y" else 0
-
-# Hitung total harga
-total_harga = harga_dasar - (harga_dasar * diskon)
-
-# Output informasi
-print("\n=== Detail Pembayaran ===")
-print(f"Tipe Tiket: {'Reguler' if tipe_tiket == '1' else 'VIP'}")
-print(f"Status Member: {'Ya' if status_member.lower() == 'y' else 'Tidak'}")
-print(f"Harga Dasar: Rp{harga_dasar:,.0f}")
-print(f"Diskon: {diskon*100:.0f}%")
-print(f"Total Harga: Rp{total_harga:,.0f}")
+except ValueError as e:
+    if str(e) == "Operator tidak valid!":
+        print("\nError: Operator yang dimasukkan tidak valid!")
+    else:
+        print("\nError: Mohon masukkan angka yang valid!")
+except ZeroDivisionError as e:
+    print(f"\nError: {e}")
+except Exception as e:
+    print(f"\nTerjadi kesalahan: {e}")

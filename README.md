@@ -70,9 +70,13 @@ Menghitung total harga setelah diskon
 
 7. Menampilkan output dari input yang dimasukkan pengguna
 
-print("\n=== Detail Pembayaran ===")
-print(f"Tipe Tiket: {'Reguler' if tipe_tiket == '1' else 'VIP'}")
-print(f"Status Member: {'Ya' if status_member.lower() == 'y' else 'Tidak'}")
-print(f"Harga Dasar: Rp{harga_dasar:,.0f}")
-print(f"Diskon: {diskon*100:.0f}%")
-print(f"Total Harga: Rp{total_harga:,.0f}")
+![image](https://github.com/user-attachments/assets/619b904a-6c62-462e-8423-724d04eda3a4)
+
+# 2. Kalkulator Sederhana
+
+Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung dua angka sesuai dengan operasi hitung yang dipilih
+
+**Flowchart dari Program Kalkulator sederhana**
+
+![1730121882200](https://github.com/user-attachments/assets/072950f7-bb12-454d-a7b9-95bfa17e7964)
+

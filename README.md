@@ -12,4 +12,4 @@ NIM: 312410397
 
 Program tiket bioskop ini adalah program untuk menghitung harga Tiket Bioskop. Konsepnya adalah jika pengguna kartu member, maka pengguna akan mendapatkan diskon 20%
 
-Flowchart dari Program tersebut
+**Flowchart dari Program tersebut**

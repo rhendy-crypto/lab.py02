@@ -122,24 +122,16 @@ Apabila angka kedua adalah 0 maka Pembagian akan error.
 
 4. Memulai proses perhitungan menggunakan if elif else
 
-Bahasa Indonesia:
-if operator == '+':                    # Jika operator adalah +
-        hasil = angka1 + angka2           # Lakukan penjumlahan
-        operasi = "Penjumlahan"          # Set nama operasi
-    elif operator == '-':                 # Jika operator adalah -
-        hasil = angka1 - angka2          # Lakukan pengurangan
-        operasi = "Pengurangan"          # Set nama operasi
-    elif operator == '*':                 # Jika operator adalah *
-        hasil = angka1 * angka2          # Lakukan perkalian
-        operasi = "Perkalian"            # Set nama operasi
-    elif operator == '/':                 # Jika operator adalah /
-        if angka2 == 0:                  # Cek jika angka kedua adalah 0
-            raise ZeroDivisionError("Pembagian dengan nol tidak diperbolehkan!")  # Raise error jika pembagian dengan 0
-        hasil = angka1 / angka2          # Lakukan pembagian
-        operasi = "Pembagian"            # Set nama operasi
-    else:
-        raise ValueError("Operator tidak valid!")  # Raise error jika operator tidak valid
+![image](https://github.com/user-attachments/assets/a448af5a-f20a-4bea-b8ec-5d8b30232ce1)
 
-Bahasa Indonesia:
+5. Menampilkan Hasil
 
+![image](https://github.com/user-attachments/assets/ba35e972-bf6d-4048-885a-d93e13610fbc)
 
+6. Membuat Penanganan Kesalahan
+
+![image](https://github.com/user-attachments/assets/85a30e7f-c659-4d32-928b-df960b26d1f8)
+
+Sekian Penjelasan Program yang saya buat yaitu Program Pemesanan Tiket Bioskop dan Program Kalkulator Sederhana
+Akhir kata... Terimakasih!
+:)

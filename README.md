@@ -9,3 +9,7 @@ Kelas: TI.24.A3
 NIM: 312410397
 
 # 1. Tiket Bioskop
+
+Program tiket bioskop ini adalah program untuk menghitung harga Tiket Bioskop. Konsepnya adalah jika pengguna kartu member, maka pengguna akan mendapatkan diskon 20%
+
+Flowchart dari Program tersebut

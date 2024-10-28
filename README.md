@@ -86,19 +86,60 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 **Contoh apabila kita memilih Operasi hitung Penjumlahan**
 
-
-![image](https://github.com/user-attachments/assets/f0419533-9250-45b6-83db-3bd5c95089cf)
-
-
+![image](https://github.com/user-attachments/assets/e283cc3a-71ed-4fb2-8f39-6d3b6735da25)
 
 **Contoh apabila kita memilih Operasi hitung Pengurangan**
 
-
+![image](https://github.com/user-attachments/assets/5d7449a9-3979-40f3-9f2c-31d40ebe6f04)
 
 **Contoh apabila kita memilih Operasi hitung Perkalian**
 
+![image](https://github.com/user-attachments/assets/b8917e9b-0355-4866-8b04-a665c5e195c7)
 
+**Contoh apabila kita memilih Operasi hitung Pembagian**
 
+![image](https://github.com/user-attachments/assets/bd8232da-a185-4137-8f33-d8ee7c208fa6)
 
+**Contoh apabila kita memilih Operasi hitung namun bagian 0**
+
+![image](https://github.com/user-attachments/assets/0173cec7-0b46-41e5-ab40-02312b537323)
+
+Apabila angka kedua adalah 0 maka Pembagian akan error.
+
+**Penjelasan kode dari program Kalkulator**
+
+1. Perintah untuk menampilkan Judul dan Operator yang tersedia
+
+![image](https://github.com/user-attachments/assets/c2071d48-be24-4bbb-a4ab-39552cd7b837)
+
+2. Mulai blok coba untuk menangani Error yang mungkin terjadi
+
+![image](https://github.com/user-attachments/assets/116539f5-274c-4186-bb77-695b9ced72b3)
+
+3. Memulai bagian untuk memasukkan angka dan juga Operasi hitung
+
+![image](https://github.com/user-attachments/assets/f8e72e3f-156c-4c05-acb9-ff1c65202fe4)
+
+4. Memulai proses perhitungan menggunakan if elif else
+
+Bahasa Indonesia:
+if operator == '+':                    # Jika operator adalah +
+        hasil = angka1 + angka2           # Lakukan penjumlahan
+        operasi = "Penjumlahan"          # Set nama operasi
+    elif operator == '-':                 # Jika operator adalah -
+        hasil = angka1 - angka2          # Lakukan pengurangan
+        operasi = "Pengurangan"          # Set nama operasi
+    elif operator == '*':                 # Jika operator adalah *
+        hasil = angka1 * angka2          # Lakukan perkalian
+        operasi = "Perkalian"            # Set nama operasi
+    elif operator == '/':                 # Jika operator adalah /
+        if angka2 == 0:                  # Cek jika angka kedua adalah 0
+            raise ZeroDivisionError("Pembagian dengan nol tidak diperbolehkan!")  # Raise error jika pembagian dengan 0
+        hasil = angka1 / angka2          # Lakukan pembagian
+        operasi = "Pembagian"            # Set nama operasi
+    else:
+        raise ValueError("Operator tidak valid!")  # Raise error jika operator tidak valid
+
+Bahasa Indonesia:
 
 

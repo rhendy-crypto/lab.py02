@@ -18,4 +18,21 @@ Program tiket bioskop ini adalah program untuk menghitung harga Tiket Bioskop. K
 
 **Program akan menanyakan status anggota**
 
-![image](https://github.com/user-attachments/assets/b2e4ef76-256e-4615-a8bc-3409bff2cf03)
+![image](https://github.com/user-attachments/assets/aa088970-3408-4e5c-bdbc-fb9b658a2c62)
+
+**Program akan menanyakan status anggota**
+
+![image](https://github.com/user-attachments/assets/8b375165-d837-4a62-86f6-3e22eb2a9eff)
+
+Jika pengguna memiliki kartu member, maka akan mendapatkan diskon 20%
+
+**Output apabila input dimasukkan user adalah N atau tidak memiliki member**
+
+![image](https://github.com/user-attachments/assets/e2fa475f-7cf1-47f6-b106-612a5b1fa8fa)
+
+1. Perintah dibawah adalah untuk memampilkan judul program dan pilihan tiket yang tersedia.
+
+Bahasa Indonesia
+print("=== Program Hitung Harga Tiket Bioskop ===")
+print("1. Reguler (Rp50.000)")
+print("2. VIP (Rp100.000)")

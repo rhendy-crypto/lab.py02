@@ -80,3 +80,13 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 ![1730121882200](https://github.com/user-attachments/assets/072950f7-bb12-454d-a7b9-95bfa17e7964)
 
+**Program akan meminta input angka dan Operator perhitungan**
+
+![image](https://github.com/user-attachments/assets/de9c75bf-e8b2-42a1-980c-f7f226e2f119)
+
+
+**Contoh apabila kita memilih Operasi hitung Penjumlahan**
+
+![image](https://github.com/user-attachments/assets/7925b35d-a4ba-40da-8e44-9d7b05969e8e)
+
+

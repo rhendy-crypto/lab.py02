@@ -84,7 +84,6 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 ![image](https://github.com/user-attachments/assets/de9c75bf-e8b2-42a1-980c-f7f226e2f119)
 
-
 **Contoh apabila kita memilih Operasi hitung Penjumlahan**
 
 ![image](https://github.com/user-attachments/assets/2b956599-4545-473a-b8b6-48957117ad98)
@@ -92,6 +91,9 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 **Contoh apabila kita memilih Operasi hitung Pengurangan**
 
 ![image](https://github.com/user-attachments/assets/bdcff36d-a766-464a-a333-52b9c5e20108)
+
+**Contoh apabila kita memilih Operasi hitung Perkalian**
+
 
 
 

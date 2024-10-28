@@ -86,11 +86,13 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 **Contoh apabila kita memilih Operasi hitung Penjumlahan**
 
-![image](https://github.com/user-attachments/assets/2b956599-4545-473a-b8b6-48957117ad98)
+
+![image](https://github.com/user-attachments/assets/8aa38613-01e8-41fe-b305-3e94a2e318da)
+
 
 **Contoh apabila kita memilih Operasi hitung Pengurangan**
 
-![image](https://github.com/user-attachments/assets/bdcff36d-a766-464a-a333-52b9c5e20108)
+![image](https://github.com/user-attachments/assets/f83579b7-ecde-48c9-a0e2-bee9f6a9043c)
 
 **Contoh apabila kita memilih Operasi hitung Perkalian**
 

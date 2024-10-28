@@ -34,5 +34,7 @@ Jika pengguna memiliki kartu member, maka akan mendapatkan diskon 20%
 
 Bahasa Indonesia
 print("=== Program Hitung Harga Tiket Bioskop ===")
+
 print("1. Reguler (Rp50.000)")
+
 print("2. VIP (Rp100.000)")

@@ -87,6 +87,13 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 **Contoh apabila kita memilih Operasi hitung Penjumlahan**
 
-![image](https://github.com/user-attachments/assets/7925b35d-a4ba-40da-8e44-9d7b05969e8e)
+![image](https://github.com/user-attachments/assets/2b956599-4545-473a-b8b6-48957117ad98)
+
+**Contoh apabila kita memilih Operasi hitung Pengurangan**
+
+![image](https://github.com/user-attachments/assets/bdcff36d-a766-464a-a333-52b9c5e20108)
+
+
+
 
 
